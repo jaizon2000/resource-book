@@ -11,10 +11,10 @@ $(function () {
     $("li").on({
         /* Highlight hover */
         mouseenter: function () {
-            $(this).addClass("link-hover");
+            $(this).addClass("w3-light-gray pointer");
         },
         mouseleave: function () {
-            $(this).removeClass("link-hover");
+            $(this).removeClass("w3-light-gray pointer");
         },
         /* ---------------- */
         // Opens link of curr clicked link

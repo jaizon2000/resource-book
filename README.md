@@ -21,12 +21,14 @@ $(this).next().toggleClass("w3-hide");
 + [**List of Traverse Methods**](https://www.w3schools.com/jquery/jquery_ref_traversing.asp)
 
 ## **JavaScript**
-### using `typeof` <br/> if current var returns an output of `undefined`
+### using `typeof` <br/> checks if current var returns an output of `undefined`
+I used it to avoid conflict when doing a `click` event on `li` elements.  
+It uses the _strict equality_ `===` or `!==` as an operator.
+
 ```javascript
 var link = $(this).attr('id');
 if (typeof link !== 'undefined') {
     // Code to execute
 }
 ```
-
 + https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined

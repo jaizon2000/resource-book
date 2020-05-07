@@ -4,8 +4,7 @@ body {
 ul{
     font-size: 18pt;
 }
-.link-hover {
-    background-color: #F1F1F1;
+.pointer {
     cursor: pointer;
 }
 #search {
