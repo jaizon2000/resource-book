@@ -5,10 +5,10 @@
  https://www.javatpoint.com/jquery-selectors
 
 # What I learned
- Methods, how to use them, etc
+ Methods, functions, how to use them, etc
 
 ## **jQuery**
-### $(selector)**_.next()_** <br/> selects the next element next to selector  
+### `$(selector).next()` <br/> selects the next element next to selector  
 in my code I used it for the header selection where,  
 1. it selects the next element of the current one I selected.  
 2. It then toggles the visibility of the listed items using `class="w3-hide"`.
@@ -16,7 +16,17 @@ in my code I used it for the header selection where,
 ```javascript
 $(this).next().toggleClass("w3-hide");
 ```
-
 + https://stackoverflow.com/questions/361717/select-current-element-in-jquery
 + https://www.w3schools.com/jquery/traversing_next.asp
 + [**List of Traverse Methods**](https://www.w3schools.com/jquery/jquery_ref_traversing.asp)
+
+## **JavaScript**
+### using `typeof` <br/> if current var returns an output of `undefined`
+```javascript
+var link = $(this).attr('id');
+if (typeof link !== 'undefined') {
+    // Code to execute
+}
+```
+
++ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined

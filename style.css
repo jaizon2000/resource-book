@@ -2,7 +2,7 @@ body {
     padding: 20px;
 }
 ul{
-    font-size: 18pt;;
+    font-size: 18pt;
 }
 .link-hover {
     background-color: #F1F1F1;
@@ -13,5 +13,5 @@ ul{
     height: 45px;
 }
 #o {
-    visibility: hidden;
+    display: block;
 }
