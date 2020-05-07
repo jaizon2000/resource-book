@@ -8,3 +8,10 @@ ul{
     background-color: #F1F1F1;
     cursor: pointer;
 }
+#search {
+    width: 30%;
+    height: 45px;
+}
+#o {
+    visibility: hidden;
+}

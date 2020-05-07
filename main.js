@@ -21,9 +21,13 @@ $(function () {
         }
     });
 
-    
+    // Click header, hide ul content
     $('button').click(function () {
-        console.log("this");
+        var $tag = $(this).next();
+        console.log($tag);
+        var selector = $(this).next();
+        $(selector).toggleClass("w3-hide");
+
     });
 
 })
